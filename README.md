@@ -1,26 +1,10 @@
 # 🚀 Employee Attrition Prediction using Machine Learning
 
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?style=for-the-badge&logo=scikitlearn)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4C72B0?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter)
-
-</p>
-
----
-
 # 📌 Project Overview
 
-Employee attrition is one of the major challenges faced by organizations. High employee turnover increases recruitment costs, training expenses, and reduces overall productivity.
+Employee attrition is one of the biggest challenges faced by organizations because it increases recruitment costs, training expenses, and reduces productivity. Identifying employees who are likely to leave the company helps HR teams take timely action to improve employee retention.
 
-This project develops a **Machine Learning-based Employee Attrition Prediction System** that predicts whether an employee is likely to leave the organization and identifies the major factors influencing attrition.
-
-The solution enables HR teams to make **data-driven retention decisions** and improve workforce planning.
+This project uses the IBM HR Analytics Employee Attrition dataset and Machine Learning techniques to predict whether an employee is likely to leave the organization. The dataset contains 1,470 employee records with demographic, job-related, compensation, performance, and work-life balance information.
 
 ---
 
@@ -30,21 +14,27 @@ Organizations experience increasing employee attrition due to various demographi
 
 The objective of this project is to:
 
-- Predict employee attrition (Yes/No)
-- Identify the major drivers of attrition
-- Support HR decision-making
-- Improve employee retention strategies
-- Reduce recruitment and training costs
+High employee turnover increases recruitment and training costs.
+Employee attrition reduces productivity and business performance.
+HR needs a better way to identify employees who are at risk of leaving.
+Machine Learning helps predict employee attrition using historical employee data.
+Early prediction supports better retention strategies and data-driven HR decisions.
 
 ---
 
-# 📊 Dataset Information
+        # 📊 Dataset Information
 
 **Dataset:** IBM HR Analytics Employee Attrition Dataset
 
-- 👥 Employee Records: **1470**
-- 🎯 Target Variable: **Attrition**
-- 📈 Problem Type: **Binary Classification**
+The project uses the IBM HR Analytics Employee Attrition Dataset, which contains information about employees and their work environment. The dataset is used to predict whether an employee is likely to leave the organization.
+
+Dataset Details:-
+
+Dataset Name: IBM HR Analytics Employee Attrition Dataset
+Total Records: 1,470 employee records
+Problem Type: Binary Classification
+Target Variable: Attrition (Yes/No)
+Total Features: Employee demographic, job-related, salary, performance, and satisfaction attributes
 
 Dataset contains information related to:
 
@@ -122,38 +112,8 @@ The following supervised learning algorithms were implemented and compared:
 
 ---
 
-# 📈 Model Performance
-
-| Model | Accuracy |
-|--------|---------:|
-| Logistic Regression | **86%** |
-| Decision Tree | **79%** |
-| Random Forest | **84%** |
-| K-Nearest Neighbors | **84%** |
-| ⭐ Support Vector Machine | **87%** |
-
-## 🏆 Best Model
-
-**Support Vector Machine (SVM)** achieved the highest accuracy (**87%**) and was selected as the final model due to its excellent generalization capability.
-
----
-
-# 🔍 Key Insights
-
-The project identified the following factors as major contributors to employee attrition:
-
-- 💰 Low Monthly Income
-- 👨 Younger Employees
-- ⏳ Fewer Years at Company
-- 🕒 Frequent Overtime
-- 🏠 Long Distance from Home
-
----
-
 # 💡 Business Recommendations
 
-- Review employee compensation regularly
-- Reduce excessive overtime
 - Improve employee engagement
 - Strengthen onboarding programs
 - Provide career growth opportunities
@@ -162,70 +122,6 @@ The project identified the following factors as major contributors to employee a
 
 ---
 
-# 📂 Repository Structure
-
-```
-HR-ATTRITION-CAPSTONE/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── data/
-│   └── HR-Employee-Attrition.csv
-│
-├── docs/
-│   ├── BRD_Employee_Attrition_Capstone.docx
-│   ├── Data_Understanding_Report_Employee_Attrition.docx
-│   ├── Feature_Engineering_Report_Employee_Attrition.docx
-│   ├── Model_Development_Report_Employee_Attrition.docx
-│   ├── Model_Evaluation_Report_Employee_Attrition.docx
-│   └── Business_Insights_and_Recommendations_Report_Employee_Attrition.docx
-│
-├── notebooks/
-│   └── HR_Employee_Attrition_Prediction.ipynb
-│
-└── presentation/
-    └── Employee_Attrition_Presentation_Final.pptx
-```
-
----
-
-# 🚀 How to Run
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/ajinkya0771/HR-ATTRITION-CAPSTONE.git
-```
-
-### Navigate to the Project
-
-```bash
-cd HR-ATTRITION-CAPSTONE
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```
-notebooks/HR_Employee_Attrition_Prediction.ipynb
-```
-
-Run all cells sequentially.
-
----
 
 # 📄 Project Deliverables
 
@@ -249,14 +145,3 @@ Run all cells sequentially.
 - Flask/FastAPI Deployment
 - Real-time HR Analytics Dashboard
 
----
-
-# 👨‍💻 Author
-
-**Ajinkya Dhote**
-
-📧 Feel free to connect and explore more Machine Learning, Data Engineering, Cloud, and AI projects.
-
----
-
-# ⭐ If you found this project helpful, consider giving it a Star!
